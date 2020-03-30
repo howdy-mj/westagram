@@ -8,11 +8,14 @@ const myName = "wecode_bootcamp";
 function writeComment(text) {
     const p = document.createElement("p");
     const span = document.createElement("span");
+    const a = document.createElement("a");
 
-    span.innerText = myName;
-    p.innerText = text;
+    a.innerText = myName;
+    span.innerText = text;
     
+    p.appendChild(a);
     p.appendChild(span);
+
     commentBox.appendChild(p);
 }
 
@@ -24,9 +27,14 @@ function handleSubmit(event) {
     commentInput.value = "";
 }
 
+comment.addEventListener("keydown", function(e) {
+    if (e.keyCode === 13) {
+        // console.log('13');
+        handleSubmit(event);
+    }
+});
 
 function init() {
-    commentInput.addEventListener("submit", handleSubmit);
     commentSubmit.addEventListener("click", handleSubmit);
 }
 init();
