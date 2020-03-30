@@ -20,7 +20,7 @@ nav .content {
     align-items: center;
 }
 
-nav .content .img-logo {
+nav .content-img-logo {
     border-right: solid black 1px;
     padding-right: 10px;
 }
@@ -40,14 +40,13 @@ nav .search {
 
 
 #main {
-    display: block;
+    display: flex;
     width: 1000px;
     margin: 0 auto;
     padding-top: 60px;
 }
 
 #main .feeds {
-    float: left;
     width: 614px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -60,21 +59,21 @@ nav .search {
     display: flex;
 }
 
-#main .feeds header .header-left {
+#main .feeds .header-left {
     display: flex;
     align-items: center;
 }
 
-#main .feeds header .header-p {
+#main .feeds .header-p {
     margin-left: 10px;
     align-items: center;
 }
 
-#main .feeds header .header-right {
+#main .feeds .header-right {
     margin: 0 0 0 auto;
 }
 
-#main .feeds header .header-left .location {
+#main .feeds .header-left .location {
     font-size: 10px;
 }
 
@@ -107,7 +106,7 @@ nav .search {
     margin-left: 10px;
 }
 
-#main .feeds .emotion .emo-right {
+#main .feeds .emo-right {
     margin-right: 10px;
 }
 
@@ -136,7 +135,7 @@ nav .search {
     line-height: 20px;
 }
 
-#main .feeds .comment-box .comment-time {
+#main .feeds .comment-time {
     color: gray;
     margin-bottom: 3px;
 }
@@ -161,3 +160,132 @@ nav .search {
     background-color: white;
 }
 
+#main .main-right {
+    margin-top: 30px;
+}
+
+#main .main-right .mine {
+    display: flex;
+}
+
+#main .main-right .mine img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border: solid #E6E6E6 1px;
+    border-radius: 25px;
+}
+
+#main .main-right .mine-container {
+    margin-left: 5px;
+    align-items: center;
+}
+
+#main .main-right .mine-name {
+    font-weight: bold;
+}
+
+#main .main-right .mine-kor-name {
+    color: gray;
+    font-size: 11px;
+}
+
+#main .main-right .story-container {
+    height: 221px;
+    width: 291px;
+    margin-top: 10px;
+    background-color: white;
+    border: solid #E6E6E6 1px;
+    border-radius: 5px;
+}
+
+#main .main-right .story-container .story-title {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main .main-right .story-container .title-story {
+    font-weight: bold;
+    margin: 0 auto 0 20px ;
+    color: gray;
+    font-size: 15px;
+}
+
+#main .main-right .story-container .title-see-all {
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#main .main-right .story-container .friend {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#main .main-right .story-container .friend img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+#main .main-right .story-container .friend-info {
+    display: inline-block;
+}
+
+#main .main-right .story-container .friend-name {
+    font-weight: bold;
+}
+
+#main .main-right .recommend-container {
+    height: 221px;
+    width: 291px;
+    margin-top: 10px;
+    background-color: white;
+    border: solid #E6E6E6 1px;
+    border-radius: 5px;
+}
+
+#main .main-right .recommend-title {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main .main-right .recommend-story {
+    font-weight: bold;
+    margin: 0 auto 0 20px ;
+    color: gray;
+    font-size: 15px;
+}
+
+#main .main-right .recommend-see-all {
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#main .main-right .recommend {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#main .main-right .recommend img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+#main .main-right .recommend-info {
+    display: inline-block;
+}
+
+#main .main-right .recommend-name {
+    font-weight: bold;
+}
