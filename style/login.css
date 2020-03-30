@@ -5,7 +5,9 @@
 body {
     background-color: #fafafa;
 }
-
+.content {
+    margin: 0 auto;
+}
 .login-container {
     width: 300px;
     margin: 100px auto;

@@ -1,0 +1,163 @@
+
+body {
+    background-color: #FAFAFA;
+}
+
+nav {
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #E6E6E6 1px;
+    background-color: white;
+}
+
+nav .content {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+}
+
+nav .content .img-logo {
+    border-right: solid black 1px;
+    padding-right: 10px;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav .search {
+    width: 215px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #fafafa;
+    border: solid #E6E6E6 1px;
+    text-align: center;
+}
+
+
+#main {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#main .feeds {
+    float: left;
+    width: 614px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    background-color: white;
+    border: solid #E6E6E6 1px;
+}
+
+#main .feeds header {
+    display: flex;
+}
+
+#main .feeds header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+#main .feeds header .header-p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+#main .feeds header .header-right {
+    margin: 0 0 0 auto;
+}
+
+#main .feeds header .header-left .location {
+    font-size: 10px;
+}
+
+#main .feeds header img {
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+#main .feeds header p {
+    margin-left: 5px;
+    text-align: left;
+    align-items: center;
+}
+
+#main .feeds .name {
+    font-weight: bold;
+}
+
+#main .feeds .main-img {
+    width: 614px;
+    height: 450px;
+}
+
+#main .feeds .emotion {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#main .feeds .emotion .emo-right {
+    margin-right: 10px;
+}
+
+#main .feeds .emotion img {
+    display: inline-block;
+    height: 25px;
+}
+
+#main .feeds .who-liked {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#main .feeds .who-liked img {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: solid #E6E6E6 1px;
+}
+
+#main .feeds .comment-box {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+#main .feeds .comment-box .comment-time {
+    color: gray;
+    margin-bottom: 3px;
+}
+
+#main .feeds .new-comment {
+    display: flex;
+}
+
+#main .feeds .new-comment input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-top: 1px solid #E6E6E6;
+    text-indent: 10px;
+}
+
+#main .feeds .new-comment button {
+    border: none;
+    border-top: 1px solid #E6E6E6;
+    color: #0095F6;
+    width: 70px;
+    background-color: white;
+}
+
