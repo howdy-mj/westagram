@@ -135,7 +135,13 @@ nav .search {
     line-height: 20px;
 }
 
+.comment-box span {
+    font-weight: bold;
+    margin-right: 3px;
+}
+
 .comment-time {
+    margin-left: 10px;
     color: gray;
     margin-bottom: 3px;
 }
