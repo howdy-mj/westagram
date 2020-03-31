@@ -55,29 +55,29 @@ nav .search {
     border: solid #E6E6E6 1px;
 }
 
-#main .feeds header {
+.feeds header {
     display: flex;
 }
 
-#main .feeds .header-left {
+.feeds .header-left {
     display: flex;
     align-items: center;
 }
 
-#main .feeds .header-p {
+.feeds .header-p {
     margin-left: 10px;
     align-items: center;
 }
 
-#main .feeds .header-right {
+.feeds .header-right {
     margin: 0 0 0 auto;
 }
 
-#main .feeds .header-left .location {
+.header-left .location {
     font-size: 10px;
 }
 
-#main .feeds header img {
+.feeds header img {
     margin-top: 10px;
     margin-left: 15px;
     height: 35px;
@@ -85,44 +85,44 @@ nav .search {
     border-radius: 20px;
 }
 
-#main .feeds header p {
+.feeds header p {
     margin-left: 5px;
     text-align: left;
     align-items: center;
 }
 
-#main .feeds .name {
+.feeds .name {
     font-weight: bold;
 }
 
-#main .feeds .main-img {
+.feeds .main-img {
     width: 614px;
     height: 450px;
 }
 
-#main .feeds .emotion {
+.emotion {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
 }
 
-#main .feeds .emo-right {
+.emo-right {
     margin-right: 10px;
 }
 
-#main .feeds .emotion img {
+.emotion img {
     display: inline-block;
     height: 25px;
 }
 
-#main .feeds .who-liked {
+.who-liked {
     display: flex;
     margin-left: 10px;
     margin-bottom: 10px;
     align-items: center;
 }
 
-#main .feeds .who-liked img {
+.who-liked img {
     height: 20px;
     width: 20px;
     border-radius: 10px;
@@ -130,21 +130,21 @@ nav .search {
     border: solid #E6E6E6 1px;
 }
 
-#main .feeds .comment-box {
+.comment-box {
     margin-left: 10px;
     line-height: 20px;
 }
 
-#main .feeds .comment-time {
+.comment-time {
     color: gray;
     margin-bottom: 3px;
 }
 
-#main .feeds .new-comment {
+.new-comment {
     display: flex;
 }
 
-#main .feeds .new-comment input {
+.new-comment input {
     width: 100%;
     height: 50px;
     border: none;
@@ -152,7 +152,7 @@ nav .search {
     text-indent: 10px;
 }
 
-#main .feeds .new-comment button {
+.new-comment button {
     border: none;
     border-top: 1px solid #E6E6E6;
     color: #0095F6;
@@ -160,15 +160,15 @@ nav .search {
     background-color: white;
 }
 
-#main .main-right {
+.main-right {
     margin-top: 30px;
 }
 
-#main .main-right .mine {
+.mine {
     display: flex;
 }
 
-#main .main-right .mine img {
+.mine img {
     height: 50px;
     width: 50px;
     margin-right: 10px;
@@ -176,21 +176,21 @@ nav .search {
     border-radius: 25px;
 }
 
-#main .main-right .mine-container {
+.mine-container {
     margin-left: 5px;
     align-items: center;
 }
 
-#main .main-right .mine-name {
+.mine-name {
     font-weight: bold;
 }
 
-#main .main-right .mine-kor-name {
+.mine-kor-name {
     color: gray;
     font-size: 11px;
 }
 
-#main .main-right .story-container {
+.story-container {
     height: 221px;
     width: 291px;
     margin-top: 10px;
@@ -199,48 +199,48 @@ nav .search {
     border-radius: 5px;
 }
 
-#main .main-right .story-container .story-title {
+.story-title {
     display: flex;
     height: 30px;
     width: 100%;
     margin-top: 10px;
 }
 
-#main .main-right .story-container .title-story {
+.title-story {
     font-weight: bold;
     margin: 0 auto 0 20px ;
     color: gray;
     font-size: 15px;
 }
 
-#main .main-right .story-container .title-see-all {
+.title-see-all {
     font-size: 15px;
     font-weight: bold;
     font-size: 13px;
     margin-right: 20px;
 }
 
-#main .main-right .story-container .friend {
+.friend {
     margin-top: 10px;
     margin-left: 20px;
 }
 
-#main .main-right .story-container .friend img {
+.friend img {
     height: 35px;
     width: 35px;
     margin-right: 10px;
     border-radius: 15px;
 }
 
-#main .main-right .story-container .friend-info {
+.friend-info {
     display: inline-block;
 }
 
-#main .main-right .story-container .friend-name {
+.friend-name {
     font-weight: bold;
 }
 
-#main .main-right .recommend-container {
+.recommend-container {
     height: 221px;
     width: 291px;
     margin-top: 10px;
@@ -249,43 +249,52 @@ nav .search {
     border-radius: 5px;
 }
 
-#main .main-right .recommend-title {
+.recommend-title {
     display: flex;
     height: 30px;
     width: 100%;
     margin-top: 10px;
 }
 
-#main .main-right .recommend-story {
+.recommend-story {
     font-weight: bold;
     margin: 0 auto 0 20px ;
     color: gray;
     font-size: 15px;
 }
 
-#main .main-right .recommend-see-all {
+.recommend-see-all {
     font-size: 15px;
     font-weight: bold;
     font-size: 13px;
     margin-right: 20px;
 }
 
-#main .main-right .recommend {
+.recommend {
     margin-top: 10px;
     margin-left: 20px;
 }
 
-#main .main-right .recommend img {
+.recommend img {
     height: 35px;
     width: 35px;
     margin-right: 10px;
     border-radius: 15px;
 }
 
-#main .main-right .recommend-info {
+.recommend-info {
     display: inline-block;
 }
 
-#main .main-right .recommend-name {
+.recommend-name {
     font-weight: bold;
+}
+
+.recommend button {
+    border: none;
+    color: #0095F6;
+    width: 70px;
+    font-weight: bold;
+    background-color: white;
+    justify-content: center;
 }
